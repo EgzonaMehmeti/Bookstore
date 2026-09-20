@@ -1,0 +1,250 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8CBCC4-7895-30E5-F233-97A1BBD126B4}|..\\IdentityServer\\IdentityServer.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\identityserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8CBCC4-7895-30E5-F233-97A1BBD126B4}|..\\IdentityServer\\IdentityServer.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\identityserver\\identityserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\repositories\\interfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:repositories\\interfaces\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D8CBCC4-7895-30E5-F233-97A1BBD126B4}|..\\IdentityServer\\IdentityServer.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\dtos\\bookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:dtos\\bookresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\dtos\\authorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:dtos\\authorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\data\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:data\\bookstoredbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:49:55.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "Middleware\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Middleware\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "Middleware\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAWwCMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T22:16:11.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\Program.cs",
+              "RelativeDocumentMoniker": "..\\IdentityServer\\Program.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\Program.cs",
+              "RelativeToolTip": "..\\IdentityServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:39:38.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-18T17:10:17.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IAuthorRepository.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Repositories\\Interfaces\\IAuthorRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IAuthorRepository.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Repositories\\Interfaces\\IAuthorRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IAuthorRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T11:23:25.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Services\\BookService.cs",
+              "RelativeToolTip": "Services\\BookService.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T22:12:12.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IdentityServer",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\IdentityServer.csproj",
+              "RelativeDocumentMoniker": "..\\IdentityServer\\IdentityServer.csproj",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\IdentityServer.csproj",
+              "RelativeToolTip": "..\\IdentityServer\\IdentityServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-20T18:36:54.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "Controllers\\BooksController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAgwBwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:53:35.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Config.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\Config.cs",
+              "RelativeDocumentMoniker": "..\\IdentityServer\\Config.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\Config.cs",
+              "RelativeToolTip": "..\\IdentityServer\\Config.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:38:00.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BookResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\DTOs\\BookResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\BookResponse.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\DTOs\\BookResponse.cs",
+              "RelativeToolTip": "DTOs\\BookResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:56:22.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\DTOs\\AuthorResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\AuthorResponse.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\DTOs\\AuthorResponse.cs",
+              "RelativeToolTip": "DTOs\\AuthorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-19T13:28:34.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BookstoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Data\\BookstoreDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\BookstoreDbContext.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Data\\BookstoreDbContext.cs",
+              "RelativeToolTip": "Data\\BookstoreDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:56:36.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Models\\Book.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Models\\Book.cs",
+              "RelativeToolTip": "Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:55:21.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Models\\Author.cs",
+              "RelativeDocumentMoniker": "Models\\Author.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Models\\Author.cs",
+              "RelativeToolTip": "Models\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-18T16:55:14.393Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

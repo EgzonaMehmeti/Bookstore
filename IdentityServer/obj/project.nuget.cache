@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "VU7kp7fw+nU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\IdentityServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aaa\\.nuget\\packages\\duende.identitymodel\\8.0.1\\duende.identitymodel.8.0.1.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\duende.identityserver\\7.4.7\\duende.identityserver.7.4.7.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\duende.identityserver.storage\\7.4.7\\duende.identityserver.storage.7.4.7.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\9.0.3\\microsoft.aspnetcore.authentication.openidconnect.9.0.3.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\10.0.0\\microsoft.aspnetcore.dataprotection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.bcl.memory\\10.0.4\\microsoft.bcl.memory.10.0.4.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.identitymodel.abstractions\\8.0.1\\microsoft.identitymodel.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\8.0.1\\microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.identitymodel.logging\\8.0.1\\microsoft.identitymodel.logging.8.0.1.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.identitymodel.protocols\\8.0.1\\microsoft.identitymodel.protocols.8.0.1.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\8.0.1\\microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\microsoft.identitymodel.tokens\\8.0.1\\microsoft.identitymodel.tokens.8.0.1.nupkg.sha512",
+    "C:\\Users\\aaa\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
