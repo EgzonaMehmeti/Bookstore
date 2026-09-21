@@ -49,7 +49,11 @@ namespace IdentityServer
                 AllowedScopes =
                 {
                     "bookstore.books"
-                }
+                },
+                AllowedCorsOrigins =
+{
+                    "https://localhost:44302"
+                },
             },
 
             new Client
@@ -69,7 +73,11 @@ namespace IdentityServer
                 AllowedScopes =
                 {
                     "bookstore.search"
-                }
+                },
+                AllowedCorsOrigins =
+{
+                    "https://localhost:44302"
+                },
             }
             };
     }

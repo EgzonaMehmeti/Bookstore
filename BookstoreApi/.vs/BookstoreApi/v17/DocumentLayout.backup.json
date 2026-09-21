@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D8CBCC4-7895-30E5-F233-97A1BBD126B4}|..\\IdentityServer\\IdentityServer.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -16,9 +19,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6D8CBCC4-7895-30E5-F233-97A1BBD126B4}|..\\IdentityServer\\IdentityServer.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\identityserver\\config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B857D949-CE33-4B75-97F0-B10E200D52C8}|BookstoreApi.csproj|c:\\users\\aaa\\desktop\\projects\\bookstore\\bookstoreapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -74,11 +74,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T18:49:55.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "..\\IdentityServer\\Properties\\launchSettings.json",
@@ -91,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
@@ -104,13 +117,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Config.cs",
               "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\Config.cs",
               "RelativeDocumentMoniker": "..\\IdentityServer\\Config.cs",
               "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\IdentityServer\\Config.cs",
               "RelativeToolTip": "..\\IdentityServer\\Config.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwEYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-20T18:38:00.79Z",
               "EditorCaption": ""
@@ -143,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -152,19 +165,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-09-18T17:10:17.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\aaa\\Desktop\\Projects\\Bookstore\\BookstoreApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAACYAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-20T18:49:55.996Z",
               "EditorCaption": ""
             },
             {

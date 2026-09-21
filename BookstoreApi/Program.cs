@@ -6,8 +6,7 @@ using BookstoreApi.Services.Interfaces;
 using BookstoreApi.Services;
 using BookstoreApi.Middleware;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.IdentityModel.Protocols.OpenIdConnect;
-using Microsoft.IdentityModel.Protocols;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -47,7 +46,70 @@ builder.Services.AddAuthorization(options =>
 });
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 //builder.Services.AddOpenApi();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.EnableAnnotations();
+    options.AddSecurityDefinition("clientCredentials", new OpenApiSecurityScheme
+    {
+        Type = SecuritySchemeType.OAuth2,
+        Flows = new OpenApiOAuthFlows
+        {
+            ClientCredentials = new OpenApiOAuthFlow
+            {
+                TokenUrl = new Uri($"{builder.Configuration["Authentication:Authority"]}/connect/token"),
+                Scopes = new Dictionary<string, string>
+                {
+                    ["bookstore.books"] = "Book CRUD"
+                }
+            }
+        }
+    });
+
+    options.AddSecurityDefinition("implicit", new OpenApiSecurityScheme
+    {
+        Type = SecuritySchemeType.OAuth2,
+        Flows = new OpenApiOAuthFlows
+        {
+            Implicit = new OpenApiOAuthFlow
+            {
+                AuthorizationUrl =
+                    new Uri($"{builder.Configuration["Authentication:Authority"]}/connect/authorize"),
+
+                Scopes = new Dictionary<string, string>
+                {
+                    ["bookstore.search"] = "Book Search"
+                }
+            }
+        }
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+{
+    {
+        new OpenApiSecurityScheme
+        {
+            Reference = new OpenApiReference
+            {
+                Type = ReferenceType.SecurityScheme,
+                Id = "clientCredentials"
+            }
+        },
+        new[] { "bookstore.books" }
+    },
+    {
+        new OpenApiSecurityScheme
+        {
+            Reference = new OpenApiReference
+            {
+                Type = ReferenceType.SecurityScheme,
+                Id = "implicit"
+            }
+        },
+        new[] { "bookstore.search" }
+    }
+});
+
+});
 
 var app = builder.Build();
 app.UseMiddleware<ExceptionHandlingMiddleware>();

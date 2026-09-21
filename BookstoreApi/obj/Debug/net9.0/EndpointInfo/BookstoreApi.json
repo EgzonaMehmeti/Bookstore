@@ -504,6 +504,40 @@
         },
         "additionalProperties": false
       }
+    },
+    "securitySchemes": {
+      "clientCredentials": {
+        "type": "oauth2",
+        "flows": {
+          "clientCredentials": {
+            "tokenUrl": "https://localhost:44303/connect/token",
+            "scopes": {
+              "bookstore.books": "Book CRUD"
+            }
+          }
+        }
+      },
+      "implicit": {
+        "type": "oauth2",
+        "flows": {
+          "implicit": {
+            "authorizationUrl": "https://localhost:44303/connect/authorize",
+            "scopes": {
+              "bookstore.search": "Book Search"
+            }
+          }
+        }
+      }
     }
-  }
+  },
+  "security": [
+    {
+      "clientCredentials": [
+        "bookstore.books"
+      ],
+      "implicit": [
+        "bookstore.search"
+      ]
+    }
+  ]
 }

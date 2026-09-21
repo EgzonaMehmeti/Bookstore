@@ -336,3 +336,4 @@ C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\obj\Debug\net9.0\BookstoreA
 C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Annotations.dll
