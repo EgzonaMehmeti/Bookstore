@@ -134,11 +134,11 @@ Swagger will obtain an access token and automatically send it as:
 
 Authorization: Bearer <access_token>
 Protected CRUD endpoints
-GET    /api/v1/books
-GET    /api/v1/books/{id}
-POST   /api/v1/books
-PUT    /api/v1/books/{id}
-DELETE /api/v1/books/{id}
+GET    /bookstore/v1/books
+GET    /bookstore/v1/books/{id}
+POST   /bookstore/v1/books
+PUT    /bookstore/v1/books/{id}
+DELETE /bookstore/v1/books/{id}
 Book Search — Implicit Flow
 
 The book search endpoint requires:
@@ -159,7 +159,7 @@ Password: test123
 
 After successful authentication, Swagger receives the access token and can call:
 
-GET /api/v1/books/search
+GET /bookstore/v1/books/search
 
 Supported query parameters:
 
@@ -170,18 +170,18 @@ pageSize
 
 Examples:
 
-/api/v1/books/search
-/api/v1/books/search?title=1984
-/api/v1/books/search?author=orwell
-/api/v1/books/search?title=1984&author=orwell&page=1&pageSize=10
+/bookstore/v1/books/search
+/bookstore/v1/books/search?title=1984
+/bookstore/v1/books/search?author=orwell
+/bookstore/v1/books/search?title=1984&author=orwell&page=1&pageSize=10
 API Endpoints
 Authors
 
 Author endpoints are provided to create and retrieve authors used by books.
 
-GET  /api/v1/authors
-GET  /api/v1/authors/{id}
-POST /api/v1/authors
+GET  /bookstore/v1/authors
+GET  /bookstore/v1/authors/{id}
+POST /bookstore/v1/authors
 
 Example author request:
 
@@ -190,7 +190,7 @@ Example author request:
 }
 Books
 Create Book
-POST /api/v1/books
+POST /bookstore/v1/books
 
 Example:
 
@@ -200,13 +200,13 @@ Example:
   "subTitle": "A Novel"
 }
 Update Book
-PUT /api/v1/books/{id}
+PUT /bookstore/v1/books/{id}
 Get Book
-GET /api/v1/books/{id}
+GET /bookstore/v1/books/{id}
 Get All Books
-GET /api/v1/books
+GET /bookstore/v1/books
 Delete Book
-DELETE /api/v1/books/{id}
+DELETE /bookstore/v1/books/{id}
 Validation and Business Rules
 
 The API validates the requirements defined by the object model.
