@@ -6,6 +6,8 @@ using BookstoreApi.Services.Interfaces;
 using BookstoreApi.Services;
 using BookstoreApi.Middleware;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Protocols.OpenIdConnect;
+using Microsoft.IdentityModel.Protocols;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -26,7 +28,7 @@ builder.Services
     {
         options.Authority = builder.Configuration["Authentication:Authority"];
         options.Audience = builder.Configuration["Authentication:Audience"];
-        options.RequireHttpsMetadata = false;
+        options.RequireHttpsMetadata = true;
     });
 
 builder.Services.AddAuthorization(options =>
@@ -43,10 +45,9 @@ builder.Services.AddAuthorization(options =>
         policy.RequireClaim("scope", "bookstore.search");
     });
 });
-Console.WriteLine(
-    $"IdentityServer Authority: {builder.Configuration["Authentication:Authority"]}");
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+//builder.Services.AddOpenApi();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 app.UseMiddleware<ExceptionHandlingMiddleware>();
@@ -54,7 +55,9 @@ app.UseMiddleware<ExceptionHandlingMiddleware>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    //app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();

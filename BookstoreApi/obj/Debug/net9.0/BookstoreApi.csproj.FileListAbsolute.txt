@@ -332,3 +332,7 @@ C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\obj\Debug\net9.0\refint\Boo
 C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\obj\Debug\net9.0\BookstoreApi.pdb
 C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\obj\Debug\net9.0\BookstoreApi.genruntimeconfig.cache
 C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\obj\Debug\net9.0\ref\BookstoreApi.dll
+C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\obj\Debug\net9.0\BookstoreApi.sourcelink.json
+C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\aaa\Desktop\Projects\Bookstore\BookstoreApi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll

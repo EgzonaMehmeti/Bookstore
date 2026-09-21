@@ -63,7 +63,7 @@ namespace IdentityServer
 
                 RedirectUris =
                 {
-                    "https://localhost:5002/swagger/oauth2-redirect.html"
+                    "https://localhost:44302/swagger/oauth2-redirect.html"
                 },
 
                 AllowedScopes =
