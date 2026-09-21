@@ -88,3 +88,5 @@ C:\Users\aaa\Desktop\Projects\Bookstore\IdentityServer\obj\Debug\net9.0\Identity
 C:\Users\aaa\Desktop\Projects\Bookstore\IdentityServer\obj\Debug\net9.0\ref\IdentityServer.dll
 C:\Users\aaa\Desktop\Projects\Bookstore\IdentityServer\bin\Debug\net9.0\keys\is-signing-key-3C25BF36C756C90BACE1444EAD41A659.json
 C:\Users\aaa\Desktop\Projects\Bookstore\IdentityServer\obj\Debug\net9.0\IdentityServer.sourcelink.json
+C:\Users\aaa\Desktop\Projects\Bookstore\IdentityServer\obj\Debug\net9.0\IdentityServer.RazorAssemblyInfo.cache
+C:\Users\aaa\Desktop\Projects\Bookstore\IdentityServer\obj\Debug\net9.0\IdentityServer.RazorAssemblyInfo.cs

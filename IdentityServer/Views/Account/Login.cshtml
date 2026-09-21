@@ -1,0 +1,81 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Bookstore Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 400px;
+            margin: 80px auto;
+        }
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+        }
+
+        .error {
+            color: darkred;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Bookstore API Login</h2>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="error">
+            @ViewBag.Error
+        </div>
+    }
+
+    <form method="post" action="/Account/Login">
+
+        <input type="hidden"
+               name="returnUrl"
+               value="@ViewBag.ReturnUrl" />
+
+        <label>Username</label>
+        <input type="text"
+               name="username"
+               required />
+
+        <label>Password</label>
+        <input type="password"
+               name="password"
+               required />
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+</body>
+</html>
